@@ -112,7 +112,7 @@ li.timeline-item {
   position: relative;
   background-color: #eeeeee;
   border-radius: 10px;
-  width: 120%;
+  width: 150%;
   font-weight: bold;
   
 }
@@ -170,12 +170,51 @@ li.timeline-item::before {
 	width: 60%;
 }
 
-.col:last-child{
-	width: 30%;
-	margin: 0px;
+.row {
+	margin-left: -10px;
 }
 
-.dropdown {
-	width: 35%;
+.drugi {
+	margin-top: 20px;
 }
 
+.btn-lg {
+	border: 5px solid transparent;
+	border-radius: 10px;
+	width: 500px;
+}
+
+.col-lg-7 {
+	width: 100%;
+}
+
+#dropdownMenu2 {
+	display: flex;
+	justify-content: space-around;
+}
+
+#dropdownMenu2 h4 {
+	padding-left: 5px;
+	font-weight: bold;
+}
+
+#dropdownMenu2 i {
+	margin-top: 10px;
+}
+
+.dropdown-menu {
+	min-width: 400px;
+	background: #eeeeee;
+  border-radius: 10px;
+  border: none;
+  margin-top: 5px;
+  max-width: 500px;
+}
+
+.dropdown-item {
+	border: none;
+	padding: 10px;
+	border-radius: 10px;
+	margin-left: 10px;
+	font-weight: bold;
+}
