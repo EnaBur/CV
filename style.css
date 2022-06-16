@@ -278,3 +278,25 @@ li.timeline-item::before {
 	margin-left: 45px;
 }
 
+/*prilagodila sam svom laptopu*/
+
+/*za na pola browser aka tablet*/
+@media only screen and (max-width: 800px) {
+  .drugi h3{
+		margin-top: 20px;
+	}
+}
+
+/*za mob*/
+
+@media only screen and (max-width: 650px) {
+  li.timeline-item{
+  	width: 400px;
+  }
+  #dropdownMenu2{
+  	width: 400px;
+  }
+  .driver{
+  	min-width: 400px;
+  }
+}
