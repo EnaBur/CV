@@ -5,6 +5,11 @@ body {
   min-height: 100vh;
 }
 
+.vjestine {
+	min-width: 500px;
+  max-width: 100%;
+}
+
 #slika {
 	border: 5px solid #555;
 	width: 150px;
@@ -178,6 +183,10 @@ li.timeline-item::before {
 	margin-top: 20px;
 }
 
+.drugi h3{
+	margin-top: -55px;
+}
+
 .btn-lg {
 	border: 5px solid transparent;
 	border-radius: 10px;
@@ -218,3 +227,54 @@ li.timeline-item::before {
 	margin-left: 10px;
 	font-weight: bold;
 }
+
+.skill {
+	font-size: 18px;
+	margin: 8px 0px 0px 30px;
+	width: 450px;
+}
+
+#boja {
+	color: royalblue;
+	font-size: 18px;
+	width: 170px;
+}
+
+#boja2 {
+	color: royalblue;
+	font-size: 18px;
+}
+
+.driver {
+	min-width: 500px;
+	background: #eeeeee;
+  border-radius: 10px;
+  border: none;
+  margin-top: 5px;
+  max-width: 500px;
+  padding: 15px;
+}
+
+.driver h4 {
+	font-weight: bold;
+	margin-left: 75px;
+}
+
+.dropdown-menu:.row {
+	font-size: 20px;
+}
+
+.jezik {
+	font-size: 18px;
+	margin: 8px 0px 0px 30px;
+	width: 80px;
+}
+
+#o_jezik {
+	width: 300px;
+}
+
+#naslov {
+	margin-left: 45px;
+}
+
