@@ -295,8 +295,13 @@ li.timeline-item::before {
   }
   #dropdownMenu2{
   	width: 400px;
+  	margin-left: 50px;
   }
   .driver{
   	min-width: 400px;
+  	margin-left: 50px;
   }
+  .drugi h3{
+		margin-left: 50px;
+	}
 }
