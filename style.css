@@ -112,8 +112,20 @@ li.timeline-item {
   position: relative;
   background-color: #eeeeee;
   border-radius: 10px;
+  width: 120%;
+  font-weight: bold;
   
 }
+
+p.text-small {
+	font-size: 18px;
+
+}
+
+.small, small {
+  font-size: 90%;
+}
+
 
 /* Timeline item arrow */
 .timeline-arrow {
@@ -148,4 +160,12 @@ li.timeline-item::before {
 .h5, h5 {
 	color: royalblue;
   font-weight: bold;
+}
+
+.align-items-start:first-child {
+	width: 65%;
+}
+
+.row {
+	width: 60%;
 }
