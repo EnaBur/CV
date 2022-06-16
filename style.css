@@ -166,6 +166,16 @@ li.timeline-item::before {
 	width: 65%;
 }
 
-.row {
+.row:first-child {
 	width: 60%;
 }
+
+.col:last-child{
+	width: 30%;
+	margin: 0px;
+}
+
+.dropdown {
+	width: 35%;
+}
+
